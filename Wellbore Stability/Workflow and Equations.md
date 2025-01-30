@@ -1,4 +1,5 @@
 # Workflow
+First and foremost, we can 
 #### 1. Sonic analysis - Assess Vp and Vs logs. If no Vs log is available, a correlation can be made using: ${V_{s}}= 0.77 \times  {V_{p}} - 0.86$
 #### 2. Then calculate the elastic properties. First, start with the elastic Young's modulus using Vp and Vs logs: ${E_{d} (PSI)}= 1.34 \times 10^{10} \times \frac{\rho_{b}}{{\Delta t_{s}^{2}}} \times \frac{(3 \Delta t_{s}^{2} - 4 \Delta t_{p}^{2})}{(\Delta t_{s}^{2} - \Delta t_{p}^{2})}$
 #### 2a. $Shear Modulus (G: PSI) = 1.34 \times 10^{10} \times \frac{\rho}{{\Delta t_{s}^{2}}}$
@@ -34,5 +35,6 @@ $\sigma
 | $$13.8E^{0.34}$$ | Limestone | Golubev and Rabinovich (1976) |
 ###### Where E is the static Young's Modulus, $$\Phi$$ is porosity, $$\Delta t$$ is sonic is us/ft, and $$V_{P}$$ is P-wave velocity.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTIxMzA3MTJdfQ==
+eyJoaXN0b3J5IjpbLTIwNjcyMTcxOTIsLTEzOTIxMzA3MTJdfQ
+==
 -->
