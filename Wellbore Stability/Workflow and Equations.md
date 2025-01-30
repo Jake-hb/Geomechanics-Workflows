@@ -1,6 +1,6 @@
 # Workflow
 This workflow is for extensional tectonic settings where $S_{V}$ = $\sigma_{1}$, $S_{Hmax}$ = $\sigma_{2}$, and $S_{hmin}$ = $\sigma_{3}$. To calculate $S_{V}$ we integrate the density log from $h = i_{0}$ to $h = i+1$ where h = TVDSS (m), $i_{0}$ = first interval at 0 m and $i$ = specified interval (m):
-$\int{i_{0}}{i+1}$
+$S_{V}=\int^{i_{0}}_{i+1} \rho_{b} g h$
 #### 1. Sonic analysis - Assess Vp and Vs logs. If no Vs log is available, a correlation can be made using: ${V_{s}}= 0.77 \times  {V_{p}} - 0.86$
 #### 2. Then calculate the elastic properties. First, start with the elastic Young's modulus using Vp and Vs logs: ${E_{d} (PSI)}= 1.34 \times 10^{10} \times \frac{\rho_{b}}{{\Delta t_{s}^{2}}} \times \frac{(3 \Delta t_{s}^{2} - 4 \Delta t_{p}^{2})}{(\Delta t_{s}^{2} - \Delta t_{p}^{2})}$
 #### 2a. $Shear Modulus (G: PSI) = 1.34 \times 10^{10} \times \frac{\rho}{{\Delta t_{s}^{2}}}$
@@ -36,5 +36,6 @@ $\sigma
 | $$13.8E^{0.34}$$ | Limestone | Golubev and Rabinovich (1976) |
 ###### Where E is the static Young's Modulus, $$\Phi$$ is porosity, $$\Delta t$$ is sonic is us/ft, and $$V_{P}$$ is P-wave velocity.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1OTExMDYwNiwtMTM5MjEzMDcxMl19
+eyJoaXN0b3J5IjpbLTM5NjQzNTYzNywtNjU5MTEwNjA2LC0xMz
+kyMTMwNzEyXX0=
 -->
