@@ -1,6 +1,8 @@
 # Workflow
-This workflow is for extensional tectonic settings where $S_{V}$ = $\sigma_{1}$, $S_{Hmax}$ = $\sigma_{2}$, and $S_{hmin}$ = $\sigma_{3}$. To calculate $S_{V}$ we integrate the density log $(\rho_{b})$ multiplied by gravitational acceleration $(g = 9.81 ms^{-1})$ multiplied by TVDSS $(h)$ from TVDSS $(h)$ = 0 to a given depth (h):
-$$S_{V}=\int_{0}^{h} \rho_{b} g h$$ (Zoback, 2007)
+This workflow is for extensional tectonic settings where $S_{V}$ = $\sigma_{1}$, $S_{Hmax}$ = $\sigma_{2}$, and $S_{hmin}$ = $\sigma_{3}$. To calculate $S_{V}$ we integrate the density log $(\rho_{b})$ multiplied by gravitational acceleration $(g = 9.81 ms^{-1})$ multiplied by TVDSS $(h)$ from TVDSS $(h)$ = 0 to a given depth $(h)$:
+$$S_{V}=\int_{0}^{h} \rho_{b} g h$$ 
+(Zoback, 2007)
+
 #### 1. Sonic analysis - Assess Vp and Vs logs. If no Vs log is available, a correlation can be made using: ${V_{s}}= 0.77 \times  {V_{p}} - 0.86$
 #### 2. Then calculate the elastic properties. First, start with the elastic Young's modulus using Vp and Vs logs: ${E_{d} (PSI)}= 1.34 \times 10^{10} \times \frac{\rho_{b}}{{\Delta t_{s}^{2}}} \times \frac{(3 \Delta t_{s}^{2} - 4 \Delta t_{p}^{2})}{(\Delta t_{s}^{2} - \Delta t_{p}^{2})}$
 #### 2a. $Shear Modulus (G: PSI) = 1.34 \times 10^{10} \times \frac{\rho}{{\Delta t_{s}^{2}}}$
@@ -36,6 +38,6 @@ $\sigma
 | $$13.8E^{0.34}$$ | Limestone | Golubev and Rabinovich (1976) |
 ###### Where E is the static Young's Modulus, $$\Phi$$ is porosity, $$\Delta t$$ is sonic is us/ft, and $$V_{P}$$ is P-wave velocity.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzY0NzE4MjksLTY1OTExMDYwNiwtMT
-M5MjEzMDcxMl19
+eyJoaXN0b3J5IjpbLTM5NDk5MjU4MywtNjU5MTEwNjA2LC0xMz
+kyMTMwNzEyXX0=
 -->
